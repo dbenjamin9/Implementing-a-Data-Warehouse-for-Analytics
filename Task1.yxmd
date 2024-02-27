@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\SalRe\Downloads\EHRData.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>EHRData.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Master Patient ID" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Encounters.csv" type="V_String" />
+            <Field name="Patient Admission Datetime" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Encounters.csv" type="V_String" />
+            <Field name="Patient Discharge Datetime" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Encounters.csv" type="V_String" />
+            <Field name="Patient InICU Flag" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Encounters.csv" type="V_String" />
+            <Field name="Patient Address Number" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Patients.csv" type="V_String" />
+            <Field name="Patient Address Street" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Patients.csv" type="V_String" />
+            <Field name="Patient Address Full" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Patients.csv" type="V_String" />
+            <Field name="Patient City" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Patients.csv" type="V_String" />
+            <Field name="Patient Zip Code" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Patients.csv" type="V_String" />
+            <Field name="Patient County" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Patients.csv" type="V_String" />
+            <Field name="Patient State" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Patients.csv" type="V_String" />
+            <Field name="Patient Country" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Patients.csv" type="V_String" />
+            <Field name="Patient Name" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Patients.csv" type="V_String" />
+            <Field name="Patient Gender" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Patients.csv" type="V_String" />
+            <Field name="Patient LACE Score" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Patients.csv" type="V_String" />
+            <Field name="Patient DOB" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Patients.csv" type="V_String" />
+            <Field name="Patient Marital Status" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Patients.csv" type="V_String" />
+            <Field name="Patient Primary Language" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Patients.csv" type="V_String" />
+            <Field name="Patient Is Citizen Flag" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Patients.csv" type="V_String" />
+            <Field name="Patient Is Deceased Flag" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Patients.csv" type="V_String" />
+            <Field name="Patient PCP Type" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Patients.csv" type="V_String" />
+            <Field name="Patient Ethnicity" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Patients.csv" type="V_String" />
+            <Field name="Hospital Name" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Hospitals.csv" type="V_String" />
+            <Field name="Hospital Address Number" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Hospitals.csv" type="V_String" />
+            <Field name="Hospital Address Street" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Hospitals.csv" type="V_String" />
+            <Field name="Hospital Address Full" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Hospitals.csv" type="V_String" />
+            <Field name="Hospital City" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Hospitals.csv" type="V_String" />
+            <Field name="Hospital Zip Code" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Hospitals.csv" type="V_String" />
+            <Field name="Hospital County" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Hospitals.csv" type="V_String" />
+            <Field name="Hospital State" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Hospitals.csv" type="V_String" />
+            <Field name="Hospital Country" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Hospitals.csv" type="V_String" />
+            <Field name="Department Name" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Departments.csv" type="V_String" />
+            <Field name="Specialty Description" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Departments.csv" type="V_String" />
+            <Field name="Primary ICD Diagnosis Code" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Accounts.csv" type="V_WString" />
+            <Field name="Admit ICD Diangosis Code" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Accounts.csv" type="V_WString" />
+            <Field name="Primary ICD Procedure Code" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Accounts.csv" type="V_WString" />
+            <Field name="Primary Payor ID" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Accounts.csv" type="V_WString" />
+            <Field name="Total Account Balance $" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Accounts.csv" type="V_WString" />
+            <Field name="Total Account Adjustment $" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Accounts.csv" type="V_WString" />
+            <Field name="Total Account Charge $" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Accounts.csv" type="V_WString" />
+            <Field name="Total Account Payment $" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Accounts.csv" type="V_WString" />
+            <Field name="HRRP Condition" size="254" source="File: C:\Users\mtrem\Dropbox\W&amp;M\Teaching WM\Online Database Course\Module 5\Group Assignment Challenges\Blending_EHR.Accounts.csv" type="V_WString" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="150" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToNUMBER([Total Account Balance $],0) " field="Total Account Balance $" size="254" type="V_WString" />
+            <FormulaField expression="ToNUMBER([Total Account Adjustment $],0)" field="Total Account Adjustment $" size="254" type="V_WString" />
+            <FormulaField expression="ToNUMBER([Total Account Charge $],0)" field="Total Account Charge $" size="254" type="V_WString" />
+            <FormulaField expression="ToNUMBER([Total Account Payment $],0)" field="Total Account Payment $" size="254" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Total Account Balance $ = ToNUMBER([Total Account Balance $],0) 
+Total Account A...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="270" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Patient Admission Datetime</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy hh:mm:ss</Format>
+          <OutputFieldName>P Admission Datetime</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Patient Admission Datetime From:
+MM/dd/yyyy hh:mm:ss</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="402" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Patient Discharge Datetime</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy hh:mm:ss</Format>
+          <OutputFieldName>P Discharge Datetime</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Patient Discharge Datetime From:
+MM/dd/yyyy hh:mm:ss</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="534" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Patient DOB</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>P DOB</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Patient DOB From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="678" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Patient Admission Datetime" selected="False" size="2147483647" />
+            <SelectField field="Patient Discharge Datetime" selected="False" size="2147483647" />
+            <SelectField field="Total Account Balance $" selected="True" type="Float" size="4" />
+            <SelectField field="Total Account Adjustment $" selected="True" type="Float" size="4" />
+            <SelectField field="Total Account Charge $" selected="True" type="Float" size="4" />
+            <SelectField field="Total Account Payment $" selected="True" type="Float" size="4" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="798" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Users\SalRe\Downloads\Task1Output.yxdb</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Task1Output.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Task1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="7c9519eb-358a-4946-abf2-be26df2ee017" />
+      <Telemetry>
+        <PreviousWorkflowId value="f934c3ef-d2fc-4df2-b8c5-e2b46dd5c16e" />
+        <OriginWorkflowId value="ceca9c0a-84ee-46a6-9504-3693516fd743" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
